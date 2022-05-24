@@ -1,9 +1,12 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import { Chart as ChartJS } from "chart.js/auto";
+import Chart from "chart.js/auto";
+console.log(Chart);
+// import { Chart, Legend, Tooltip, Title } from "chart.js";
+// Chart.register(Title, Legend, Tooltip);
+// console.log(Chart, Legend, Tooltip, Title);
 
 const BarChart = ({ chartData }) => {
-  console.log(ChartJS);
   return (
     <>
       <Line
