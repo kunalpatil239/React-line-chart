@@ -18,6 +18,7 @@ function App() {
       },
     ],
   });
+  console.log(setUserData);
   return (
     <div style={{ backgroundColor: "lightgray", height: "100vh" }}>
       <h3
